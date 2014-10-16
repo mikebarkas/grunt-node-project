@@ -3,3 +3,12 @@ function test() {
   // Another test comment.
   return "test";
 }
+
+// Another function.
+function testOne() {
+  return "test one";
+}
+
+function three() {
+  return "another test";
+}
