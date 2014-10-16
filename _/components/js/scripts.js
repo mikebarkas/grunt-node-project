@@ -11,5 +11,5 @@ function testOne() {
 
 // Function comment.
 function three() {
-  return "another test";
+  return "another test function.";
 }

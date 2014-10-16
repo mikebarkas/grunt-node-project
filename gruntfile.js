@@ -12,8 +12,18 @@ module.exports = function(grunt) {
     }, //uglify
 
     watch: {
-      files: ['_/components/js/*.js'],
-      tasks: ['uglify']
+      // Relaod server, default port.
+      options: { livereload: true},
+
+      scripts: {
+        files: ['_/components/js/*.js'],
+        tasks: ['uglify']
+      }, //scripts
+
+      html: {
+        files: ['*.html']
+      } //html
+
     } //watch
 
   }) //initconfig
