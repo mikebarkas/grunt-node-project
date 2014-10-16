@@ -9,6 +9,7 @@ function testOne() {
   return "test one";
 }
 
+// Function comment.
 function three() {
   return "another test";
 }

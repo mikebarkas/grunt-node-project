@@ -17,4 +17,8 @@ module.exports = function(grunt) {
     } //watch
 
   }) //initconfig
+
+  // Default task, started without params.
+  grunt.registerTask('default', 'watch');
+
 } //exports
